@@ -1,8 +1,6 @@
 import psutil
 import pandas as pd
 
-data_frame=pd.DataFrame()
-
 class conn:
     def connection(self):
         self.connect=psutil.net_connections(kind='tcp')
